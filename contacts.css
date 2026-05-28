@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.direction-change{
+    display: flex;
+    flex-direction: column
+}
