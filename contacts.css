@@ -2,14 +2,82 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    border: 0.5vw solid #AB7743;
+    height: 15vh;
+    width: 100vw;
+    background-color: #B7957F;
 }
 
 main{
     display: flex;
     flex-direction: row;
+    margin-top: 5vh;
+    height: 85vh;
+    width: 100vw;
 }
 
 .direction-change{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    background-color: #D7BDA6;
+    height: 90vh;
+    border: #B7957F solid;
+    border-radius: 1vw;
+}
+
+.Size-change{
+    width: 45vw;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    resize: vertical;
+    min-height: 3vh;
+}
+
+.Size-change2{
+    width: 45vw;
+    min-height: 50px;
+    resize: vertical;
+    padding-bottom: 20vh;
+    margin-bottom: 3vh;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.button-styling{
+    width: 10vw;
+}
+
+.change-position{
+    display: flex;
+    margin-left: 20vw;
+    flex-direction: column;
+    width: 35vw;
+    background-color: #AB7743;
+    border: #B7957F solid;
+    border-radius: 1vw;
+}
+
+.image-restyle {
+    width: 35vw;
+    height: 30vh;
+}
+
+#Logo {
+    width: 5vw;
+    height: 10vh;
+}
+
+body{
+    width: 100vw;
+    height: 60vh;
+    background-color: #6D3914;
+}
+
+footer{
+    width: 100vw;
+    height: 25vh;
+    margin-top: 15vh;
+    background-color: #D7BDA6;
+    border:#AB7743 0.5vw solid;
 }
