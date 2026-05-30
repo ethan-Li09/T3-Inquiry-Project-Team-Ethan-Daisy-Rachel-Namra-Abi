@@ -9,12 +9,28 @@ header {
     background-color: #B7957F;
 }
 
+.heading-styling{
+    margin-right: 36vw;
+}
+
+.nav-styles{
+    margin: 1vw;
+}
+
 main{
     display: flex;
     flex-direction: row;
-    margin-top: 5vh;
     height: 85vh;
     width: 100vw;
+    margin-top: 10vh;
+}
+
+.h2-styling{
+    margin-top: -8vh;
+    margin-left: 50vw;
+    background-color:#B7957F;
+    border:#AB7743 solid 0.5vw;
+    height: 5vh;
 }
 
 .direction-change{
@@ -24,6 +40,7 @@ main{
     height: 90vh;
     border: #B7957F solid;
     border-radius: 1vw;
+    margin-left: -58vw;
 }
 
 .Size-change{
@@ -46,6 +63,8 @@ main{
 
 .button-styling{
     width: 10vw;
+    height: 10vh;
+    margin-left: 18vw;
 }
 
 .change-position{
