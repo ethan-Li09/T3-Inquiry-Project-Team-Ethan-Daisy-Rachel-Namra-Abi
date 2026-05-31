@@ -1,0 +1,59 @@
+img {
+    width: 20vw;
+    height: 30vh;
+    border: 0.15rem rgb(116, 89, 50);
+    border-style: dashed;
+}
+
+body {
+    background-color: rgb(243,233,220);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(82, 49, 28);
+}
+
+.Coffee-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.Milkshake-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Iced-Tea-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Hero-section {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(243,233,220);
+    
+    
+}
+
+#drinks-h2 {
+    background-color: rgb(243,233,220);
+    font-size: xx-large;
+    color: rgb(82, 49, 28);;
+}
+
+h2 {
+    color: rgb(107, 65, 30);
+}
+
+.child-hero {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-color: rgb(243,233,220);
+}
