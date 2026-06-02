@@ -7,6 +7,22 @@
 
 }
 
+.about-us-text {
+    flex-direction: column;
+    width: 40%;
+}
+
+.top-part {
+    display:flex;
+    justify-content: space-around;
+    background-color:rgb(192, 133, 82);
+    color:rgb(59, 31, 24);
+}
+
+.bullet-points {
+    padding-top: 5vw;
+}
+
 .img1 {
     width: 10vw;
     height: 20vh;
@@ -14,17 +30,79 @@
 
 .pop-picks {
     display:flex;
-    
+    padding: 5vw;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(94, 48, 35);
 }
+
+.popclass {
+    flex-direction: column;
+    background-color: rgb(137, 86, 55);
+    color: rgb(243, 233, 220);
+
+}
+
 
 .popimg {
     width: 20vw;
-    height: 50vh;
+    height: 30vh;
+
+}
+
+.imagee {
+    width: 20vw;
+    height: 20vh;
+}
+
+.pop-imtired {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 nav {
     display:flex;
     justify-content: space-between;
     align-items:center;
-    background-color:rgb(214, 149, 131);
+    background-color:rgb(192, 133, 82);
 }
+
+a {
+    color:rgb(59, 31, 24)
+}
+
+.bottom-section-idk {
+    display:flex;
+
+}
+
+.review {
+    width: 70vw;
+    background-color:rgb(243, 233, 220);
+    border: solid 6px rgb(137, 86, 55);
+    color: rgb(94, 48, 35);
+}
+
+.socials {
+    display: flex;
+    margin: 5vw;
+    padding: 2vw;
+    border: 10px rgb(243, 233, 220) double;
+    flex-direction: column;
+    color: rgb(243, 233, 220);
+}
+
+.bottom-section-idk {
+    background-color: rgb(137, 86, 55);
+    margin: 5vw;
+}
+
+.footer {
+    background-color: rgb(192, 133, 82);
+    padding: 1vw;
+    color:rgb(94, 48, 35);
+    display: flex;
+    justify-content: space-around;
+}
+
