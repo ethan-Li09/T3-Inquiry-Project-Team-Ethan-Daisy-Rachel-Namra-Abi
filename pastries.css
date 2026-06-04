@@ -7,6 +7,7 @@ body {
     width: 100vw;
     height: 10vh;
     background-color:burlywood;
+    border: 10px solid rgb(212,187,151);
     display:flex;
     flex-direction: row;
     align-items:center;
@@ -18,13 +19,19 @@ body {
     width: 100vw;
     height: 22vh;
     display:flex;
-    flex-direction:column;
-    justify-content:center;
-    background-color: blanchedalmond; 
+    flex-direction:row;
+    justify-content:space-around;
+    background-color: rgb(212, 187, 151); 
+
 }
 
+.text-spec-desc {
+        display: flex;
+        flex-direction: column;
+    }
+
 .food-collumn {
-    height: 20vh;
+    height: 25vh;
     width: 100vw;
     display:flex;
     flex-direction: row;
@@ -33,6 +40,8 @@ body {
 
 .Headings {
     background-color:white;
+    width:8vw;
+    border:5px solid rgb(134, 117, 84);
     display: flex;
     text-align: center;
 }
@@ -41,6 +50,29 @@ body {
     flex-direction: column;
 }
 #Hero-img {
-    width: 45vw;
-    height:33vh;
+    width: 20vw;
+    height:20vh;
+}
+
+.reg-img {
+    width:15vw;
+    height:15vh;
+}
+
+.price-tag{
+    background-color: lightyellow; 
+    border: 3px solid rgb(134, 117, 84);
+    width: 5vw;
+    display:flex;
+    align-items: center;
+}
+
+.footer-style{
+    background-color: burlywood;
+    border: 5px solid rgb(212,187,151);
+    height:10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
